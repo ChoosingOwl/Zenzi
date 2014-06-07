@@ -11,9 +11,6 @@ public class LargeEnemy : Enemies {
 			RotationSpeed = 1.0f;
 			DetectionRange = 10;
 			
-			Transform playerTransform;
-			Transform myTransform;
-			
 			base.Awake();
 			
 			
